@@ -5,6 +5,6 @@ document.getElementById("metricInput").addEventListener("input", function(e) {
   document.getElementById("feetOutput").innerHTML = mts * 3.281 + " ft";
   document.getElementById("mlOutput").innerHTML = mts / 1609.344 + " ml";
   document.getElementById("ydOutput").innerHTML = mts * 1.094 + " yd";
-  document.getElementById("stOutput").innerHTML = lbs / 14 + " st";
-  document.getElementById("tnOutput").innerHTML = lbs /  2204.623 + " tn";
+  document.getElementById("inOutput").innerHTML = mts * 39,37 + " in";
+  document.getElementById("nmOutput").innerHTML = mts / 1852 + " nm";
 });
