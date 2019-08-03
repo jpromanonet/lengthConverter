@@ -7,4 +7,5 @@ document.getElementById("feetInput").addEventListener("input", function(e) {
   document.getElementById("cmOutput").innerHTML = ft * 30.48 + " cm";
   document.getElementById("mmOutput").innerHTML = ft * 304.8 + " mm";
   document.getElementById("mcmOutput").innerHTML = ft * 304800 + " mcn";
+  document.getElementById("nmOutput").innerHTML = ft * 304800000 + " nm";
 });
